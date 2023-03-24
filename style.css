@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,500;0,600;1,500&family=Hanken+Grotesk:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.card {
+    width: 327px;
+    height: 444px;
+    background: #733FC8;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    margin-left: calc(50% - 327px/2);
+    margin-top: 71px;
+}
+
+.card1 {
+    position: relative;
+}
+
+.descr-daniel {
+    position: absolute;
+}
+
+.letter-daniel {
+    position: absolute;
+    top: 178px;
+}
+
+.quotation-icon {
+    position: absolute;
+    right: 24px;
+}
+
+.author-photo {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 23px;
+    margin-left: 32px;
+    border: 2px solid #A775F1;
+
+}
+
+.card-info {
+    display: flex;
+}
+
+.name {
+    margin-top: 26px;
+    margin-left: 15px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.degree {
+    margin-top: 4px;
+    margin-left: 15px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.descr {
+    width: 263px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-left: 32px;
+}
+
+.letter {
+    width: 263px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #CFCFCF;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-top: 40px;
+    margin-left: 32px;
+}
+
+.card2 {
+    width: 327px;
+    height: 240px;
+    background: #48556A;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.jonathan {
+    border: none;
+}
+
+.jonathan-letter {
+    margin-top: 16px;
+}
+
+.card3 {
+    width: 327px;
+    height: 222px;
+    background: #FFFFFF;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.jeanette {
+    color: #48556A;
+}
+
+.degree-jeanette {
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    color: #48556A;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.harmon-letter {
+    margin-top: 16px;
+    font-family: 'Barlow Semi Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #48556A;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.card4 {
+    width: 327px;
+    height: 384px;
+    background: #19202D;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+.card5 {
+    background: #FFFFFF;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+@media (min-width: 1200px) {
+
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex {
+        display: flex;
+    }
+    
+    .card {
+        margin-left: 0;
+        margin-right: 30px;
+        margin-top: 24px;
+    }
+
+    .quotation-icon {
+        right: 80px;
+    }
+    
+    .card5 {
+        width: 255px;
+        height: 572px;
+    }
+
+    .descr {
+        width: 191px;
+    }
+
+    .letter {
+        width: 191px;
+    }
+
+    .card4 {
+        width: 540px;
+        height: 266px;
+    }
+
+    .descr-patrick {
+        width: 476px;
+    }
+
+    .patrick-letter {
+        width: 476px;
+        margin-top: 14px;
+    }
+
+    .card3 {
+        width: 255px;
+        height: 266px;
+    }
+
+    .card2 {
+        width: 255px;
+        height: 282px;
+    }
+
+    .card1 {
+        width: 540px;
+        height: 282px;
+    }
+
+    .descr-daniel {
+        width: 476px;
+    }
+    
+    .letter-daniel {
+        width: 476px;
+        top: 125px;
+    }
+
+}
