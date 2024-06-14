@@ -20,7 +20,7 @@ Screenshot 2 PC - https://ibb.co/d66CzWQ
 
 ### Links
 
-- Live Site URL: https://iraklidk.github.io/testimonials-grid-section-main/
+- Live Site URL: https://iraklidk.github.io/testimonionals-grid/
 
 ### Built with
 
